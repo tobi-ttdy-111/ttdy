@@ -1,4 +1,4 @@
- 
+  
 Proyecto (listas doblemente enlazadas)
 Realizar la creacion, administracion o gestion del estado clinico para "n" pacientes
 
@@ -26,7 +26,10 @@ Realizar la creacion, administracion o gestion del estado clinico para "n" pacie
 - Eliminar historial clínico
 - Buscar paciente:
     - nombre / curp
-- Eliminar paciente
+- Eliminar paciente:
+    - inicio
+    - final
+    - en medio
 - Agregar dirección:
     - inicio
     - final
@@ -37,6 +40,56 @@ Realizar la creacion, administracion o gestion del estado clinico para "n" pacie
     - en medio
 - Mostrar historial clinico
 - Eliminar cita
+    - inicio
+    - final
+    - en medio
 
 4 - Entrega
 - viernes 23
+
+
+// 
+paciente {
+    nombre
+    curp
+    direccion {
+        di
+        d2
+        d3
+        .
+        .
+        .
+        dn
+    }
+    edad
+    ine
+    telefono
+    historial clinico {
+        padecimiento
+        tratamiento
+        costo de la revisión
+        lugar de atención
+        fecha de atención
+        Dr que revisó {
+            hospital-1
+            hospital-2
+            hospital-3
+            .
+            .
+            .
+            hospital-n
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+LO HACEMOS EN DUO ? c:
