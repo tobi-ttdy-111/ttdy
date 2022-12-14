@@ -1,0 +1,42 @@
+ 
+Proyecto (listas doblemente enlazadas)
+Realizar la creacion, administracion o gestion del estado clinico para "n" pacientes
+
+1 - De cada paciente se debe guardar su informacion personal:
+- nombre
+- curp
+- direccion => el paciente puede tener mas de una dirección
+- edad
+- ine
+- telefono
+
+2 - El historial clínico estará compuesto por "n" citas(sesiones) médicas, en las cuales se guarda la siguiente información:
+- Padecimiento
+- Tratamiento
+- Costo de la revisión
+- Lugar de atención
+- Fecha de atención
+- Dr que revisó => un doctor puede pertenecer a mas de un hospital
+
+3 - Operaciones
+- Agregar paciente:
+    - inicio
+    - final
+    - en medio
+- Eliminar historial clínico
+- Buscar paciente:
+    - nombre / curp
+- Eliminar paciente
+- Agregar dirección:
+    - inicio
+    - final
+    - en medio
+- Agregar cita:
+    - inicio
+    - final
+    - en medio
+- Mostrar historial clinico
+- Eliminar cita
+
+4 - Entrega
+- viernes 23
