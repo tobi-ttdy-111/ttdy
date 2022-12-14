@@ -1,4 +1,4 @@
-  
+ 
 Proyecto (listas doblemente enlazadas)
 Realizar la creacion, administracion o gestion del estado clinico para "n" pacientes
 
@@ -45,7 +45,7 @@ Realizar la creacion, administracion o gestion del estado clinico para "n" pacie
     - en medio
 
 4 - Entrega
-- viernes 23
+- viernes 26
 
 
 // 
@@ -71,13 +71,16 @@ paciente {
         lugar de atención
         fecha de atención
         Dr que revisó {
-            hospital-1
-            hospital-2
-            hospital-3
-            .
-            .
-            .
-            hospital-n
+            nombre
+            hospitales {
+                hospital-1
+                hospital-2
+                hospital-3
+                .
+                .
+                .
+                hospital-n
+            }
         }
     }
 }
@@ -86,10 +89,19 @@ paciente {
 
 
 
-
-
-
-
-
-
 LO HACEMOS EN DUO ? c:
+
+
+
+1 - crear paciente
+2 - actualizar informacion paciente
+3 - buscar paciente
+4 - eliminar paciente
+
+
+
+4 - caso: no hay pacientes
+    - err: No hay pacientes listados
+4 - caso: si haiga pacientes
+    - 1 - eliminar por curp
+    - 
